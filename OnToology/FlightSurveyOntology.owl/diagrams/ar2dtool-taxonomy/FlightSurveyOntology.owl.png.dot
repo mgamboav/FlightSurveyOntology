@@ -1,0 +1,16 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; ":Type_Of_Traveller" ":Economy_Class" ":Bussiness_Class" ":Seat_Type" ":Survey" ":First_Class" ":Qatar_Airways_Survey" ":FamilyLeisure" ":SoloLeisure" ":CoupleLeisure" ":Premium_Economy" ":Ryanair_Survey" ":Bussiness" ; /*classes style*/
+	":Economy_Class" -> ":Seat_Type" [ label = "rdfs:subClassOf" ];
+	":Bussiness_Class" -> ":Seat_Type" [ label = "rdfs:subClassOf" ];
+	":FamilyLeisure" -> ":Type_Of_Traveller" [ label = "rdfs:subClassOf" ];
+	":First_Class" -> ":Seat_Type" [ label = "rdfs:subClassOf" ];
+	":Ryanair_Survey" -> ":Survey" [ label = "rdfs:subClassOf" ];
+	":SoloLeisure" -> ":Type_Of_Traveller" [ label = "rdfs:subClassOf" ];
+	":Qatar_Airways_Survey" -> ":Survey" [ label = "rdfs:subClassOf" ];
+	":Premium_Economy" -> ":Seat_Type" [ label = "rdfs:subClassOf" ];
+	":Bussiness" -> ":Type_Of_Traveller" [ label = "rdfs:subClassOf" ];
+	":CoupleLeisure" -> ":Type_Of_Traveller" [ label = "rdfs:subClassOf" ];
+
+}

@@ -1,0 +1,186 @@
+{
+  "@context" : {
+    "hasFlightAspect" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlightAspect",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasPublicationDate" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPublicationDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+    },
+    "hasRating" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasRating",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "First_Class" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"
+    },
+    "Country" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country"
+    },
+    "hasAircraft" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAircraft",
+      "@type" : "@id"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "hasWifiAndConnectivity" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasWifiAndConnectivity",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "hasGroundService" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasGroundService",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "hasName" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "isRecommended" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isRecommended",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "CoupleLeisure" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"
+    },
+    "Economy_Class" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"
+    },
+    "hasComment" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasComment",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasDestination" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDestination",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Destination" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination"
+    },
+    "Ryanair_Survey" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair_Survey"
+    },
+    "Type_Of_Traveller" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller"
+    },
+    "Seat_Type" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type"
+    },
+    "Origin" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Origin"
+    },
+    "hasCabinStaffService" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCabinStaffService",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Traveller" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller"
+    },
+    "hasFoodAndBeverages" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFoodAndBeverages",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Bussiness_Class" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"
+    },
+    "Qatar_Airways_Survey" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways_Survey"
+    },
+    "hasFlight" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlight",
+      "@type" : "@id"
+    },
+    "Bussiness" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"
+    },
+    "Survey" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey"
+    },
+    "isTripVerified" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isTripVerified",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "FamilyLeisure" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"
+    },
+    "Aircraft" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Aircraft"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "hasSeatComfort" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatComfort",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "hasSeatType" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatType",
+      "@type" : "@id"
+    },
+    "hasMaxRating" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasMaxRating",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Airline" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline"
+    },
+    "Flight" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight"
+    },
+    "Premium_Economy" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"
+    },
+    "hasInflightEntertainment" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasInflightEntertainment",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "hasDateFlown" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDateFlown",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+    },
+    "hasOrigin" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasOrigin",
+      "@type" : "@id"
+    },
+    "hasAirline" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAirline",
+      "@type" : "@id"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "SoloLeisure" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"
+    },
+    "hasTypeOfTraveller" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTypeOfTraveller",
+      "@type" : "@id"
+    },
+    "hasCountry" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCountry",
+      "@type" : "@id"
+    },
+    "hasValueForMoney" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasValueForMoney",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Flight_Aspect" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect"
+    },
+    "hasPassenger" : {
+      "@id" : "http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPassenger",
+      "@type" : "@id"
+    }
+  }
+}
