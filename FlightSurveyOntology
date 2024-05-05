@@ -1,0 +1,1767 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/isard/ontologies/2024/4/FlightSurveyOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/isard/ontologies/2024/4/FlightSurveyOntology">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCountry"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTitle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Montreal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasWifiAndConnectivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Australia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasGroundService"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDestination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasMaxRating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatComfort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTypeOfTraveller"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCabinStaffService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Boeing_737"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Denmark"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasInflightEntertainment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasComment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFoodAndBeverages"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasRating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlightAspect"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isTripVerified"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasValueForMoney"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPassenger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#United_Kingdom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAircraft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair_Survey"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Origin"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDateFlown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAirline"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isRecommended"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#London"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPublicationDate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Aircraft"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasOrigin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways_Survey"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways_Survey"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair_Survey"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Aircraft"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Aircraft"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Aircraft"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Aircraft"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Aircraft"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Aircraft"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Aircraft"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Aircraft"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Origin"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways_Survey"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair_Survey"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <Annotation>
+                <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+                <Literal>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 5/5/24 11:27</Literal>
+            </Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>DisjointClasses(&lt;http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness&gt;) replaced by DisjointClasses(&lt;http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness&gt; owl:Thing)</Literal>
+        </Annotation>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Origin"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways_Survey"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair_Survey"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <Annotation>
+                <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+                <Literal>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 5/5/24 11:27</Literal>
+            </Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>DisjointClasses(&lt;http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class&gt;) replaced by DisjointClasses(&lt;http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class&gt; owl:Thing)</Literal>
+        </Annotation>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Origin"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways_Survey"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair_Survey"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <Annotation>
+                <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+                <Literal>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 5/5/24 11:27</Literal>
+            </Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>DisjointClasses(&lt;http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure&gt;) replaced by DisjointClasses(&lt;http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure&gt; owl:Thing)</Literal>
+        </Annotation>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Origin"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways_Survey"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair_Survey"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <Annotation>
+                <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+                <Literal>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 5/5/24 11:27</Literal>
+            </Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>DisjointClasses(&lt;http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class&gt;) replaced by DisjointClasses(&lt;http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class&gt; owl:Thing)</Literal>
+        </Annotation>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Origin"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways_Survey"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair_Survey"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <Annotation>
+                <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+                <Literal>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 5/5/24 11:27</Literal>
+            </Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>DisjointClasses(&lt;http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure&gt;) replaced by DisjointClasses(&lt;http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure&gt; owl:Thing)</Literal>
+        </Annotation>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Origin"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways_Survey"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair_Survey"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <Annotation>
+                <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+                <Literal>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 5/5/24 11:27</Literal>
+            </Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>DisjointClasses(&lt;http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class&gt;) replaced by DisjointClasses(&lt;http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class&gt; owl:Thing)</Literal>
+        </Annotation>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Origin"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Origin"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways_Survey"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair_Survey"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <Annotation>
+                <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+                <Literal>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 5/5/24 11:27</Literal>
+            </Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>DisjointClasses(&lt;http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy&gt;) replaced by DisjointClasses(&lt;http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy&gt; owl:Thing)</Literal>
+        </Annotation>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways_Survey"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair_Survey"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways_Survey"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair_Survey"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Annotation>
+            <Annotation>
+                <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+                <Literal>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 5/5/24 11:27</Literal>
+            </Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>DisjointClasses(&lt;http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure&gt;) replaced by DisjointClasses(&lt;http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure&gt; owl:Thing)</Literal>
+        </Annotation>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Australia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Aircraft"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Boeing_737"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Denmark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#London"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Montreal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#United_Kingdom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+        <AnonymousIndividual nodeID="_:genid2147483667"/>
+    </ClassAssertion>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatType"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTypeOfTraveller"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAircraft"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAirline"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCountry"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDestination"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlight"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlightAspect"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasOrigin"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPassenger"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatType"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTypeOfTraveller"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAircraft"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Aircraft"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAirline"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCountry"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDestination"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlight"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlightAspect"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasOrigin"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Origin"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPassenger"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatType"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatType"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatType"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatType"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTypeOfTraveller"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTypeOfTraveller"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTypeOfTraveller"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTypeOfTraveller"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCabinStaffService"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasComment"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDateFlown"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFoodAndBeverages"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasGroundService"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasInflightEntertainment"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasMaxRating"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasName"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPublicationDate"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasRating"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatComfort"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTitle"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasValueForMoney"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasWifiAndConnectivity"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isRecommended"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isTripVerified"/>
+        <Class IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCabinStaffService"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasComment"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDateFlown"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFoodAndBeverages"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasGroundService"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasInflightEntertainment"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasMaxRating"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPublicationDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasRating"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatComfort"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTitle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasValueForMoney"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasWifiAndConnectivity"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isRecommended"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isTripVerified"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Aircraft</IRI>
+        <Literal xml:lang="en">Vehicle that is able to fly by gaining support from the air</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Aircraft</IRI>
+        <Literal xml:lang="en">aircraft</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Aircraft</IRI>
+        <Literal xml:lang="en">https://dbpedia.org/ontology/Aircraft</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline</IRI>
+        <Literal xml:lang="en">Organization providing a regular public service of air transport.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline</IRI>
+        <Literal xml:lang="en">airline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline</IRI>
+        <Literal xml:lang="en">https://dbpedia.org/ontology/Airline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Australia</IRI>
+        <Literal xml:lang="en">Sovereign country comprising the mainland of the Australian continent.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Australia</IRI>
+        <Literal xml:lang="en">australia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Boeing_737</IRI>
+        <Literal xml:lang="en">Narrow-body aircraft produced by Boeing at its Renton factory in Washington.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Boeing_737</IRI>
+        <Literal xml:lang="en">boeing_737</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class</IRI>
+        <Literal xml:lang="en">Bussiness class seat.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class</IRI>
+        <Literal xml:lang="en">bussiness_class</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country</IRI>
+        <Literal xml:lang="en">The passenger country.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country</IRI>
+        <Literal xml:lang="en">country</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country</IRI>
+        <Literal xml:lang="en">https://dbpedia.org/ontology/Country</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Denmark</IRI>
+        <Literal xml:lang="en">Denmark is a Scandinavian country comprising the Jutland Peninsula and numerous islands.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Denmark</IRI>
+        <Literal xml:lang="en">denmark</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination</IRI>
+        <Literal xml:lang="en">The place where the trip ends.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination</IRI>
+        <Literal xml:lang="en">destination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination</IRI>
+        <Literal xml:lang="en">https://dbpedia.org/ontology/Place</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class</IRI>
+        <Literal xml:lang="en">Economy class seat.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class</IRI>
+        <Literal xml:lang="en">economy_class</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class</IRI>
+        <Literal xml:lang="en">First class seat.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class</IRI>
+        <Literal xml:lang="en">first_class</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight</IRI>
+        <Literal xml:lang="en">A trip made by or in an airplane or aircraft.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight</IRI>
+        <Literal xml:lang="en">flight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect</IRI>
+        <Literal xml:lang="en">Different aspects or elements of a flight experience.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect</IRI>
+        <Literal xml:lang="en">flight_aspect</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#London</IRI>
+        <Literal xml:lang="en">The capital of England and the United Kingdom.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#London</IRI>
+        <Literal xml:lang="en">london</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Montreal</IRI>
+        <Literal xml:lang="en">Largest city in Canada&apos;s Québec province.  largest city in Canada&apos;s Québec province.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Montreal</IRI>
+        <Literal xml:lang="en">montreal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Origin</IRI>
+        <Literal xml:lang="en">The place where the trip begins.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Origin</IRI>
+        <Literal xml:lang="en">origin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Origin</IRI>
+        <Literal xml:lang="en">https://dbpedia.org/ontology/Place</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy</IRI>
+        <Literal xml:lang="en">Premium Economy seat.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy</IRI>
+        <Literal xml:lang="en">premium_economy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways</IRI>
+        <Literal xml:lang="en">Airlne based in Doha, the capital city of Qatar.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways</IRI>
+        <Literal xml:lang="en">qatar_airways</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways_Survey</IRI>
+        <Literal xml:lang="en">Survey from Qatar Airways.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways_Survey</IRI>
+        <Literal xml:lang="en">qatar_airways_survey</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair</IRI>
+        <Literal xml:lang="en">Irish ultra low-cost carrier group headquartered in Swords, Dublin, Ireland.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair</IRI>
+        <Literal xml:lang="en">ryanair</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair_Survey</IRI>
+        <Literal xml:lang="en">Survey from Ryanair.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair_Survey</IRI>
+        <Literal xml:lang="en">ryanair_survey</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type</IRI>
+        <Literal xml:lang="en">Indicates the type or category of seat available on the flight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type</IRI>
+        <Literal xml:lang="en">seat_type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey</IRI>
+        <Literal xml:lang="en">Information gathering through questions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey</IRI>
+        <Literal xml:lang="en">survey</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller</IRI>
+        <Literal xml:lang="en">Traveller other than the driver, pilot, or crew.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller</IRI>
+        <Literal xml:lang="en">traveller</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller</IRI>
+        <Literal xml:lang="en">https://dbpedia.org/ontology/Person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller</IRI>
+        <Literal xml:lang="en">Type or category of traveller</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller</IRI>
+        <Literal xml:lang="en">type_of_traveller</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#United_Kingdom</IRI>
+        <Literal xml:lang="en">Country in Northwestern Europe, off the coast of the continental mainland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#United_Kingdom</IRI>
+        <Literal xml:lang="en">united_kingdom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAircraft</IRI>
+        <Literal xml:lang="en">Defines the survey aircraft.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAircraft</IRI>
+        <Literal xml:lang="en">has_aircraft</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAirline</IRI>
+        <Literal xml:lang="en">Indicates the type of passenger associated with a satisfaction survey.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAirline</IRI>
+        <Literal xml:lang="en">has_airline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCabinStaffService</IRI>
+        <Literal xml:lang="en">Defines the cabin staff service quality.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCabinStaffService</IRI>
+        <Literal xml:lang="en">has_cabin_staff_service</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasComment</IRI>
+        <Literal xml:lang="en">Defines the survey comment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasComment</IRI>
+        <Literal xml:lang="en">has_comment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCountry</IRI>
+        <Literal xml:lang="en">Defines the country of a survey.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCountry</IRI>
+        <Literal xml:lang="en">has_country</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDateFlown</IRI>
+        <Literal xml:lang="en">Defines the date when the flight was performed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDateFlown</IRI>
+        <Literal xml:lang="en">has_date_flown</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDestination</IRI>
+        <Literal xml:lang="en">Defines the destination of a filght.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDestination</IRI>
+        <Literal xml:lang="en">has_destination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlight</IRI>
+        <Literal xml:lang="en">Defines the survey flight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlight</IRI>
+        <Literal xml:lang="en">has_flight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlightAspect</IRI>
+        <Literal xml:lang="en">Defines the flight aspects.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlightAspect</IRI>
+        <Literal xml:lang="en">has_flight_aspect</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFoodAndBeverages</IRI>
+        <Literal xml:lang="en">Defines the food and beverages quality.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFoodAndBeverages</IRI>
+        <Literal xml:lang="en">has_food_and_beverages</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasGroundService</IRI>
+        <Literal xml:lang="en">Defines the ground service quality.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasGroundService</IRI>
+        <Literal xml:lang="en">has_ground_service</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasInflightEntertainment</IRI>
+        <Literal xml:lang="en">Defines the inflight entertainment quality.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasInflightEntertainment</IRI>
+        <Literal xml:lang="en">has_inflight_entertainment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasMaxRating</IRI>
+        <Literal xml:lang="en">Defines the maximum rating.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasMaxRating</IRI>
+        <Literal xml:lang="en">has_max_rating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasName</IRI>
+        <Literal xml:lang="en">Defines the name of the traveller.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasName</IRI>
+        <Literal xml:lang="en">has_name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasOrigin</IRI>
+        <Literal xml:lang="en">Defines the flight origin.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasOrigin</IRI>
+        <Literal xml:lang="en">has_origin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPassenger</IRI>
+        <Literal xml:lang="en">Defines the survey passenger.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPassenger</IRI>
+        <Literal xml:lang="en">has_passenger</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPublicationDate</IRI>
+        <Literal xml:lang="en">Defines the date when the survey was published.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPublicationDate</IRI>
+        <Literal>has_publication_date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasRating</IRI>
+        <Literal xml:lang="en">Defines the survey rating.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasRating</IRI>
+        <Literal xml:lang="en">has_rating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatComfort</IRI>
+        <Literal xml:lang="en">Defines the flight seat comfort.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatComfort</IRI>
+        <Literal xml:lang="en">hasSeatComfort</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatType</IRI>
+        <Literal xml:lang="en">Defines the survey seat type.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatType</IRI>
+        <Literal xml:lang="en">has_seat_type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTitle</IRI>
+        <Literal xml:lang="en">Defines the survey title.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTitle</IRI>
+        <Literal xml:lang="en">has_title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTypeOfTraveller</IRI>
+        <Literal xml:lang="en">Indicates the type of passenger associated with a satisfaction survey.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTypeOfTraveller</IRI>
+        <Literal xml:lang="en">has_type_of_traveller</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasValueForMoney</IRI>
+        <Literal xml:lang="en">Defines the value for money of the flight services.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasValueForMoney</IRI>
+        <Literal xml:lang="en">has_value_for_money</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasWifiAndConnectivity</IRI>
+        <Literal xml:lang="en">Defines the wifi and connecitivity quality.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasWifiAndConnectivity</IRI>
+        <Literal xml:lang="en">has_wifi_and_connectivuty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isRecommended</IRI>
+        <Literal xml:lang="en">Defines whether the airline has been recommended or not.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isRecommended</IRI>
+        <Literal xml:lang="en">is_recommended</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isTripVerified</IRI>
+        <Literal xml:lang="en">Whether the survey has its trip verified or not.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isTripVerified</IRI>
+        <Literal xml:lang="en">is_trip_verified</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
