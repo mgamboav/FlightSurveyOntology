@@ -1,0 +1,445 @@
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11> <http://www.w3.org/2000/01/rdf-schema#comment> "Flight Survey Ontology"@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Miriam Melina Gamboa Valdez"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2000/01/rdf-schema#sameAs
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAircraft
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAircraft> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAircraft> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Aircraft> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAircraft> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the survey aircraft."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAircraft> <http://www.w3.org/2000/01/rdf-schema#label> "has_aircraft"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAirline
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAirline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAirline> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAirline> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAirline> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the type of passenger associated with a satisfaction survey."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAirline> <http://www.w3.org/2000/01/rdf-schema#label> "has_airline"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCountry
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCountry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCountry> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the country of a survey."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCountry> <http://www.w3.org/2000/01/rdf-schema#label> "has_country"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDestination
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDestination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDestination> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDestination> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDestination> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the destination of a filght."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDestination> <http://www.w3.org/2000/01/rdf-schema#label> "has_destination"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlight
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlight> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlight> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the survey flight."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlight> <http://www.w3.org/2000/01/rdf-schema#label> "has_flight"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlightAspect
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlightAspect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlightAspect> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlightAspect> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlightAspect> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the flight aspects."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlightAspect> <http://www.w3.org/2000/01/rdf-schema#label> "has_flight_aspect"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasOrigin
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasOrigin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Origin> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the flight origin."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#label> "has_origin"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPassenger
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPassenger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPassenger> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPassenger> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPassenger> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the survey passenger."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPassenger> <http://www.w3.org/2000/01/rdf-schema#label> "has_passenger"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatType
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatType> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the survey seat type."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatType> <http://www.w3.org/2000/01/rdf-schema#label> "has_seat_type"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTypeOfTraveller
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTypeOfTraveller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTypeOfTraveller> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTypeOfTraveller> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTypeOfTraveller> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTypeOfTraveller> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTypeOfTraveller> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTypeOfTraveller> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the type of passenger associated with a satisfaction survey."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTypeOfTraveller> <http://www.w3.org/2000/01/rdf-schema#label> "has_type_of_traveller"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCabinStaffService
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCabinStaffService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCabinStaffService> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCabinStaffService> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCabinStaffService> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the cabin staff service quality."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCabinStaffService> <http://www.w3.org/2000/01/rdf-schema#label> "has_cabin_staff_service"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasComment
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasComment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasComment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasComment> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasComment> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the survey comment."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasComment> <http://www.w3.org/2000/01/rdf-schema#label> "has_comment"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDateFlown
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDateFlown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDateFlown> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDateFlown> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDateFlown> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the date when the flight was performed."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDateFlown> <http://www.w3.org/2000/01/rdf-schema#label> "has_date_flown"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFoodAndBeverages
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFoodAndBeverages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFoodAndBeverages> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFoodAndBeverages> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFoodAndBeverages> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the food and beverages quality."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFoodAndBeverages> <http://www.w3.org/2000/01/rdf-schema#label> "has_food_and_beverages"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasGroundService
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasGroundService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasGroundService> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasGroundService> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasGroundService> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the ground service quality."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasGroundService> <http://www.w3.org/2000/01/rdf-schema#label> "has_ground_service"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasInflightEntertainment
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasInflightEntertainment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasInflightEntertainment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasInflightEntertainment> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasInflightEntertainment> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the inflight entertainment quality."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasInflightEntertainment> <http://www.w3.org/2000/01/rdf-schema#label> "has_inflight_entertainment"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasMaxRating
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasMaxRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasMaxRating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasMaxRating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasMaxRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the maximum rating."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasMaxRating> <http://www.w3.org/2000/01/rdf-schema#label> "has_max_rating"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasName
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasName> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the name of the traveller."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasName> <http://www.w3.org/2000/01/rdf-schema#label> "has_name"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPublicationDate
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPublicationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPublicationDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPublicationDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPublicationDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the date when the survey was published."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPublicationDate> <http://www.w3.org/2000/01/rdf-schema#label> "has_publication_date" .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasRating
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasRating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasRating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the survey rating."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasRating> <http://www.w3.org/2000/01/rdf-schema#label> "has_rating"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatComfort
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatComfort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatComfort> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatComfort> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatComfort> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the flight seat comfort."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatComfort> <http://www.w3.org/2000/01/rdf-schema#label> "hasSeatComfort"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTitle
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTitle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTitle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the survey title."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTitle> <http://www.w3.org/2000/01/rdf-schema#label> "has_title"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasValueForMoney
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasValueForMoney> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasValueForMoney> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasValueForMoney> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasValueForMoney> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the value for money of the flight services."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasValueForMoney> <http://www.w3.org/2000/01/rdf-schema#label> "has_value_for_money"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasWifiAndConnectivity
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasWifiAndConnectivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasWifiAndConnectivity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasWifiAndConnectivity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasWifiAndConnectivity> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the wifi and connecitivity quality."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasWifiAndConnectivity> <http://www.w3.org/2000/01/rdf-schema#label> "has_wifi_and_connectivuty"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isRecommended
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isRecommended> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isRecommended> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isRecommended> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isRecommended> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines whether the airline has been recommended or not."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isRecommended> <http://www.w3.org/2000/01/rdf-schema#label> "is_recommended"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isTripVerified
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isTripVerified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isTripVerified> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isTripVerified> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isTripVerified> <http://www.w3.org/2000/01/rdf-schema#comment> "Whether the survey has its trip verified or not."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isTripVerified> <http://www.w3.org/2000/01/rdf-schema#label> "is_trip_verified"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Aircraft
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Aircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Aircraft> <http://www.w3.org/2000/01/rdf-schema#comment> "Vehicle that is able to fly by gaining support from the air"@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Aircraft> <http://www.w3.org/2000/01/rdf-schema#label> "aircraft"@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Aircraft> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/ontology/Aircraft"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline> <http://www.w3.org/2000/01/rdf-schema#comment> "Organization providing a regular public service of air transport."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline> <http://www.w3.org/2000/01/rdf-schema#label> "airline"@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/ontology/Airline"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller> .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class> <http://www.w3.org/2000/01/rdf-schema#comment> "Bussiness class seat."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class> <http://www.w3.org/2000/01/rdf-schema#label> "bussiness_class"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country> <http://www.w3.org/2000/01/rdf-schema#comment> "The passenger country."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country> <http://www.w3.org/2000/01/rdf-schema#label> "country"@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/ontology/Country"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller> .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination> <http://www.w3.org/2000/01/rdf-schema#comment> "The place where the trip ends."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination> <http://www.w3.org/2000/01/rdf-schema#label> "destination"@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/ontology/Place"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class> <http://www.w3.org/2000/01/rdf-schema#comment> "Economy class seat."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class> <http://www.w3.org/2000/01/rdf-schema#label> "economy_class"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller> .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class> <http://www.w3.org/2000/01/rdf-schema#comment> "First class seat."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class> <http://www.w3.org/2000/01/rdf-schema#label> "first_class"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight> <http://www.w3.org/2000/01/rdf-schema#comment> "A trip made by or in an airplane or aircraft."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight> <http://www.w3.org/2000/01/rdf-schema#label> "flight"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect> <http://www.w3.org/2000/01/rdf-schema#comment> "Different aspects or elements of a flight experience."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect> <http://www.w3.org/2000/01/rdf-schema#label> "flight_aspect"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Origin
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Origin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Origin> <http://www.w3.org/2000/01/rdf-schema#comment> "The place where the trip begins."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Origin> <http://www.w3.org/2000/01/rdf-schema#label> "origin"@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Origin> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/ontology/Place"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy> <http://www.w3.org/2000/01/rdf-schema#comment> "Premium Economy seat."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy> <http://www.w3.org/2000/01/rdf-schema#label> "premium_economy"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways_Survey
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways_Survey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways_Survey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways_Survey> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair_Survey> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways_Survey> <http://www.w3.org/2000/01/rdf-schema#comment> "Survey from Qatar Airways."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways_Survey> <http://www.w3.org/2000/01/rdf-schema#label> "qatar_airways_survey"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair_Survey
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair_Survey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair_Survey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair_Survey> <http://www.w3.org/2000/01/rdf-schema#comment> "Survey from Ryanair."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair_Survey> <http://www.w3.org/2000/01/rdf-schema#label> "ryanair_survey"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the type or category of seat available on the flight."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type> <http://www.w3.org/2000/01/rdf-schema#label> "seat_type"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller> .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey> <http://www.w3.org/2000/01/rdf-schema#comment> "Information gathering through questions."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey> <http://www.w3.org/2000/01/rdf-schema#label> "survey"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller> <http://www.w3.org/2000/01/rdf-schema#comment> "Traveller other than the driver, pilot, or crew."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller> <http://www.w3.org/2000/01/rdf-schema#label> "traveller"@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/ontology/Person"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller> <http://www.w3.org/2000/01/rdf-schema#comment> "Type or category of traveller"@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller> <http://www.w3.org/2000/01/rdf-schema#label> "type_of_traveller"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Australia
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Australia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Australia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Australia> <http://www.w3.org/2000/01/rdf-schema#comment> "Sovereign country comprising the mainland of the Australian continent."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Australia> <http://www.w3.org/2000/01/rdf-schema#label> "australia"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Boeing_737
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Boeing_737> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Boeing_737> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Aircraft> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Boeing_737> <http://www.w3.org/2000/01/rdf-schema#comment> "Narrow-body aircraft produced by Boeing at its Renton factory in Washington."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Boeing_737> <http://www.w3.org/2000/01/rdf-schema#label> "boeing_737"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Denmark
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Denmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Denmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Denmark> <http://www.w3.org/2000/01/rdf-schema#comment> "Denmark is a Scandinavian country comprising the Jutland Peninsula and numerous islands."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Denmark> <http://www.w3.org/2000/01/rdf-schema#label> "denmark"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#London
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#London> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#London> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#London> <http://www.w3.org/2000/01/rdf-schema#comment> "The capital of England and the United Kingdom."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#London> <http://www.w3.org/2000/01/rdf-schema#label> "london"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Montreal
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Montreal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Montreal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Montreal> <http://www.w3.org/2000/01/rdf-schema#comment> "Largest city in Canada's Québec province.  largest city in Canada's Québec province."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Montreal> <http://www.w3.org/2000/01/rdf-schema#label> "montreal"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways> <http://www.w3.org/2000/01/rdf-schema#comment> "Airlne based in Doha, the capital city of Qatar."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways> <http://www.w3.org/2000/01/rdf-schema#label> "qatar_airways"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair> <http://www.w3.org/2000/01/rdf-schema#comment> "Irish ultra low-cost carrier group headquartered in Swords, Dublin, Ireland."@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair> <http://www.w3.org/2000/01/rdf-schema#label> "ryanair"@en .
+# 
+# http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#United_Kingdom
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#United_Kingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#United_Kingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country> .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#United_Kingdom> <http://www.w3.org/2000/01/rdf-schema#comment> "Country in Northwestern Europe, off the coast of the continental mainland"@en .
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#United_Kingdom> <http://www.w3.org/2000/01/rdf-schema#label> "united_kingdom"@en .
+# 
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2002/07/owl#topDataProperty> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid3 <http://www.w3.org/2002/07/owl#members> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid8 <http://www.w3.org/2002/07/owl#members> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

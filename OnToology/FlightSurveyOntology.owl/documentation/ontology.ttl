@@ -1,0 +1,470 @@
+@prefix : <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#> .
+
+<http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11> rdf:type owl:Ontology ;
+                                                                           rdfs:comment "Flight Survey Ontology"@en ;
+                                                                           rdfs:isDefinedBy "Miriam Melina Gamboa Valdez"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2000/01/rdf-schema#sameAs
+rdfs:sameAs rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAircraft
+:hasAircraft rdf:type owl:ObjectProperty ;
+             rdfs:domain :Airline ;
+             rdfs:range :Aircraft ;
+             rdfs:comment "Defines the survey aircraft."@en ;
+             rdfs:label "has_aircraft"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasAirline
+:hasAirline rdf:type owl:ObjectProperty ;
+            rdfs:domain :Survey ;
+            rdfs:range :Airline ;
+            rdfs:comment "Indicates the type of passenger associated with a satisfaction survey."@en ;
+            rdfs:label "has_airline"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCountry
+:hasCountry rdf:type owl:ObjectProperty ;
+            rdfs:domain :Survey ;
+            rdfs:range :Country ;
+            rdfs:comment "Defines the country of a survey."@en ;
+            rdfs:label "has_country"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDestination
+:hasDestination rdf:type owl:ObjectProperty ;
+                rdfs:domain :Flight ;
+                rdfs:range :Destination ;
+                rdfs:comment "Defines the destination of a filght."@en ;
+                rdfs:label "has_destination"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlight
+:hasFlight rdf:type owl:ObjectProperty ;
+           rdfs:domain :Survey ;
+           rdfs:range :Flight ;
+           rdfs:comment "Defines the survey flight."@en ;
+           rdfs:label "has_flight"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFlightAspect
+:hasFlightAspect rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Flight ;
+                 rdfs:range :Flight_Aspect ;
+                 rdfs:comment "Defines the flight aspects."@en ;
+                 rdfs:label "has_flight_aspect"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasOrigin
+:hasOrigin rdf:type owl:ObjectProperty ;
+           rdfs:domain :Flight ;
+           rdfs:range :Origin ;
+           rdfs:comment "Defines the flight origin."@en ;
+           rdfs:label "has_origin"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPassenger
+:hasPassenger rdf:type owl:ObjectProperty ;
+              rdfs:domain :Survey ;
+              rdfs:range :Traveller ;
+              rdfs:comment "Defines the survey passenger."@en ;
+              rdfs:label "has_passenger"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatType
+:hasSeatType rdf:type owl:ObjectProperty ;
+             rdfs:domain :Survey ;
+             rdfs:range :Bussiness_Class ,
+                        :Economy_Class ,
+                        :First_Class ,
+                        :Premium_Economy ;
+             rdfs:comment "Defines the survey seat type."@en ;
+             rdfs:label "has_seat_type"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTypeOfTraveller
+:hasTypeOfTraveller rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Traveller ;
+                    rdfs:range :Bussiness ,
+                               :CoupleLeisure ,
+                               :FamilyLeisure ,
+                               :SoloLeisure ;
+                    rdfs:comment "Indicates the type of passenger associated with a satisfaction survey."@en ;
+                    rdfs:label "has_type_of_traveller"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasCabinStaffService
+:hasCabinStaffService rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :Flight_Aspect ;
+                      rdfs:range xsd:integer ;
+                      rdfs:comment "Defines the cabin staff service quality."@en ;
+                      rdfs:label "has_cabin_staff_service"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasComment
+:hasComment rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Survey ;
+            rdfs:range xsd:string ;
+            rdfs:comment "Defines the survey comment."@en ;
+            rdfs:label "has_comment"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasDateFlown
+:hasDateFlown rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Flight ;
+              rdfs:range xsd:dateTimeStamp ;
+              rdfs:comment "Defines the date when the flight was performed."@en ;
+              rdfs:label "has_date_flown"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasFoodAndBeverages
+:hasFoodAndBeverages rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Flight_Aspect ;
+                     rdfs:range xsd:integer ;
+                     rdfs:comment "Defines the food and beverages quality."@en ;
+                     rdfs:label "has_food_and_beverages"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasGroundService
+:hasGroundService rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Flight_Aspect ;
+                  rdfs:range xsd:integer ;
+                  rdfs:comment "Defines the ground service quality."@en ;
+                  rdfs:label "has_ground_service"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasInflightEntertainment
+:hasInflightEntertainment rdf:type owl:DatatypeProperty ;
+                          rdfs:domain :Flight_Aspect ;
+                          rdfs:range xsd:integer ;
+                          rdfs:comment "Defines the inflight entertainment quality."@en ;
+                          rdfs:label "has_inflight_entertainment"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasMaxRating
+:hasMaxRating rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Survey ;
+              rdfs:range xsd:integer ;
+              rdfs:comment "Defines the maximum rating."@en ;
+              rdfs:label "has_max_rating"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasName
+:hasName rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Traveller ;
+         rdfs:range xsd:string ;
+         rdfs:comment "Defines the name of the traveller."@en ;
+         rdfs:label "has_name"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasPublicationDate
+:hasPublicationDate rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Survey ;
+                    rdfs:range xsd:dateTimeStamp ;
+                    rdfs:comment "Defines the date when the survey was published."@en ;
+                    rdfs:label "has_publication_date" .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasRating
+:hasRating rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Survey ;
+           rdfs:range xsd:integer ;
+           rdfs:comment "Defines the survey rating."@en ;
+           rdfs:label "has_rating"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasSeatComfort
+:hasSeatComfort rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Flight_Aspect ;
+                rdfs:range xsd:integer ;
+                rdfs:comment "Defines the flight seat comfort."@en ;
+                rdfs:label "hasSeatComfort"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasTitle
+:hasTitle rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Survey ;
+          rdfs:range xsd:string ;
+          rdfs:comment "Defines the survey title."@en ;
+          rdfs:label "has_title"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasValueForMoney
+:hasValueForMoney rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Flight_Aspect ;
+                  rdfs:range xsd:integer ;
+                  rdfs:comment "Defines the value for money of the flight services."@en ;
+                  rdfs:label "has_value_for_money"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#hasWifiAndConnectivity
+:hasWifiAndConnectivity rdf:type owl:DatatypeProperty ;
+                        rdfs:domain :Flight_Aspect ;
+                        rdfs:range xsd:integer ;
+                        rdfs:comment "Defines the wifi and connecitivity quality."@en ;
+                        rdfs:label "has_wifi_and_connectivuty"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isRecommended
+:isRecommended rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Airline ;
+               rdfs:range xsd:boolean ;
+               rdfs:comment "Defines whether the airline has been recommended or not."@en ;
+               rdfs:label "is_recommended"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#isTripVerified
+:isTripVerified rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Survey ;
+                rdfs:range xsd:boolean ;
+                rdfs:comment "Whether the survey has its trip verified or not."@en ;
+                rdfs:label "is_trip_verified"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Aircraft
+:Aircraft rdf:type owl:Class ;
+          rdfs:comment "Vehicle that is able to fly by gaining support from the air"@en ;
+          rdfs:label "aircraft"@en ;
+          rdfs:sameAs "https://dbpedia.org/ontology/Aircraft"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Airline
+:Airline rdf:type owl:Class ;
+         rdfs:comment "Organization providing a regular public service of air transport."@en ;
+         rdfs:label "airline"@en ;
+         rdfs:sameAs "https://dbpedia.org/ontology/Airline"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness
+:Bussiness rdf:type owl:Class ;
+           rdfs:subClassOf :Type_Of_Traveller .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Bussiness_Class
+:Bussiness_Class rdf:type owl:Class ;
+                 rdfs:subClassOf :Seat_Type ;
+                 rdfs:comment "Bussiness class seat."@en ;
+                 rdfs:label "bussiness_class"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Country
+:Country rdf:type owl:Class ;
+         rdfs:comment "The passenger country."@en ;
+         rdfs:label "country"@en ;
+         rdfs:sameAs "https://dbpedia.org/ontology/Country"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#CoupleLeisure
+:CoupleLeisure rdf:type owl:Class ;
+               rdfs:subClassOf :Type_Of_Traveller .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Destination
+:Destination rdf:type owl:Class ;
+             rdfs:comment "The place where the trip ends."@en ;
+             rdfs:label "destination"@en ;
+             rdfs:sameAs "https://dbpedia.org/ontology/Place"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Economy_Class
+:Economy_Class rdf:type owl:Class ;
+               rdfs:subClassOf :Seat_Type ;
+               rdfs:comment "Economy class seat."@en ;
+               rdfs:label "economy_class"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#FamilyLeisure
+:FamilyLeisure rdf:type owl:Class ;
+               rdfs:subClassOf :Type_Of_Traveller .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#First_Class
+:First_Class rdf:type owl:Class ;
+             rdfs:subClassOf :Seat_Type ;
+             rdfs:comment "First class seat."@en ;
+             rdfs:label "first_class"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight
+:Flight rdf:type owl:Class ;
+        rdfs:comment "A trip made by or in an airplane or aircraft."@en ;
+        rdfs:label "flight"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Flight_Aspect
+:Flight_Aspect rdf:type owl:Class ;
+               rdfs:comment "Different aspects or elements of a flight experience."@en ;
+               rdfs:label "flight_aspect"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Origin
+:Origin rdf:type owl:Class ;
+        rdfs:comment "The place where the trip begins."@en ;
+        rdfs:label "origin"@en ;
+        rdfs:sameAs "https://dbpedia.org/ontology/Place"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Premium_Economy
+:Premium_Economy rdf:type owl:Class ;
+                 rdfs:subClassOf :Seat_Type ;
+                 rdfs:comment "Premium Economy seat."@en ;
+                 rdfs:label "premium_economy"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways_Survey
+:Qatar_Airways_Survey rdf:type owl:Class ;
+                      rdfs:subClassOf :Survey ;
+                      owl:disjointWith :Ryanair_Survey ;
+                      rdfs:comment "Survey from Qatar Airways."@en ;
+                      rdfs:label "qatar_airways_survey"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair_Survey
+:Ryanair_Survey rdf:type owl:Class ;
+                rdfs:subClassOf :Survey ;
+                rdfs:comment "Survey from Ryanair."@en ;
+                rdfs:label "ryanair_survey"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Seat_Type
+:Seat_Type rdf:type owl:Class ;
+           rdfs:comment "Indicates the type or category of seat available on the flight."@en ;
+           rdfs:label "seat_type"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#SoloLeisure
+:SoloLeisure rdf:type owl:Class ;
+             rdfs:subClassOf :Type_Of_Traveller .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Survey
+:Survey rdf:type owl:Class ;
+        rdfs:comment "Information gathering through questions."@en ;
+        rdfs:label "survey"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Traveller
+:Traveller rdf:type owl:Class ;
+           rdfs:comment "Traveller other than the driver, pilot, or crew."@en ;
+           rdfs:label "traveller"@en ;
+           rdfs:sameAs "https://dbpedia.org/ontology/Person"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Type_Of_Traveller
+:Type_Of_Traveller rdf:type owl:Class ;
+                   rdfs:comment "Type or category of traveller"@en ;
+                   rdfs:label "type_of_traveller"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Australia
+:Australia rdf:type owl:NamedIndividual ,
+                    :Country ;
+           rdfs:comment "Sovereign country comprising the mainland of the Australian continent."@en ;
+           rdfs:label "australia"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Boeing_737
+:Boeing_737 rdf:type owl:NamedIndividual ,
+                     :Aircraft ;
+            rdfs:comment "Narrow-body aircraft produced by Boeing at its Renton factory in Washington."@en ;
+            rdfs:label "boeing_737"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Denmark
+:Denmark rdf:type owl:NamedIndividual ,
+                  :Country ;
+         rdfs:comment "Denmark is a Scandinavian country comprising the Jutland Peninsula and numerous islands."@en ;
+         rdfs:label "denmark"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#London
+:London rdf:type owl:NamedIndividual ,
+                 :Destination ;
+        rdfs:comment "The capital of England and the United Kingdom."@en ;
+        rdfs:label "london"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Montreal
+:Montreal rdf:type owl:NamedIndividual ,
+                   :Destination ;
+          rdfs:comment "Largest city in Canada's Québec province.  largest city in Canada's Québec province."@en ;
+          rdfs:label "montreal"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Qatar_Airways
+:Qatar_Airways rdf:type owl:NamedIndividual ,
+                        :Airline ;
+               rdfs:comment "Airlne based in Doha, the capital city of Qatar."@en ;
+               rdfs:label "qatar_airways"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#Ryanair
+:Ryanair rdf:type owl:NamedIndividual ,
+                  :Airline ;
+         rdfs:comment "Irish ultra low-cost carrier group headquartered in Swords, Dublin, Ireland."@en ;
+         rdfs:label "ryanair"@en .
+
+
+###  http://www.semanticweb.org/isard/ontologies/2024/3/untitled-ontology-11#United_Kingdom
+:United_Kingdom rdf:type owl:NamedIndividual ,
+                         :Country ;
+                rdfs:comment "Country in Northwestern Europe, off the coast of the continental mainland"@en ;
+                rdfs:label "united_kingdom"@en .
+
+
+[ rdf:type [ rdf:type owl:Restriction ;
+             owl:onProperty owl:topDataProperty ;
+             owl:someValuesFrom xsd:boolean
+           ]
+] .
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+   owl:members ( :Bussiness
+                 :CoupleLeisure
+                 :FamilyLeisure
+                 :SoloLeisure
+               )
+ ] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Bussiness_Class
+                :Economy_Class
+                :First_Class
+                :Premium_Economy
+              )
+] .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
